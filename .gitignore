@@ -11,9 +11,7 @@ ENV/
 .Python
 
 # Distribution/build files
-build/
 dist/
-*.egg-info/
 .eggs/
 
 # Sphinx documentation build artifacts
