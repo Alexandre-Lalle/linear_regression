@@ -1,0 +1,49 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+.Python
+
+# Distribution/build files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Sphinx documentation build artifacts
+docs/_build/
+docs/*.log
+docs/_static/
+
+# Log files
+*.log
+
+# Unit test / Coverage reports
+.coverage
+*.cover
+*.coverage.*
+.cache
+.pytest_cache/
+pytest_cache/
+
+# VS Code project settings
+.vscode/
+*.code-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.swp
+*.bak
+*~
+
+# Ignore Jupyter Notebook checkpoints if used
+.ipynb_checkpoints/
