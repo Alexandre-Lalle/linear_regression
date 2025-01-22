@@ -55,4 +55,4 @@ A comprehensive Sphinx documentation is available for this module, providing det
 MIT License
 
 ## Author
-Alexandre LALLE
+[Alexandre LALLE](https://github.com/Alexandre-Lalle)
