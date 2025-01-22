@@ -24,7 +24,7 @@ To install the package, use the following command:
 
 .. code-block:: bash
 
-    pip python setup.py install
+    python setup.py install
 
 Getting Started
 ---------------
@@ -58,10 +58,9 @@ Here is a simple example of how to use the Linear Regression Package:
 
     # Make predictions on the test set
     y_pred = model.predict(X_test)
-    
-    # Get R² score
-    score = model.score(X_test, y_test)
 
+    # Get R² score
+    score = model.score(y_test, y_pred)
 
 API Reference
 -------------

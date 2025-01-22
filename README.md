@@ -5,7 +5,7 @@ The **Regression Module** is a Python package offering robust tools for implemen
 ## Key Features
 
 - **Multiple Linear Regression**: A custom implementation of linear regression with gradient descent optimization.
-- **Regularization**: Supports L1 (Lasso) and L2 (Ridge) regularization for enhanced model performance.
+- **Regularization**: Supports L1 (Lasso), L2 (Ridge), and ElasticNet regularization for enhanced model performance.
 - **Data Preprocessing**: Built-in functions for feature normalization, outlier removal, and efficient train-test splitting.
 - **Visualization Tools**: Plot learning curves and feature importance for better interpretability of your models.
 - **Hyperparameter Optimization**: Includes grid search capabilities to fine-tune model parameters effectively.
@@ -42,11 +42,14 @@ model = LinearRegression(
 model.fit(X_train, y_train)
 
 # Make predictions on the test set
-y_pred = model.predict(X)
+y_pred = model.predict(X_test)
 
 # Get R² score
 score = model.score(y_test, y_pred)
 ```
+
+## Documentation
+A comprehensive Sphinx documentation is available for this module, providing detailed information on usage, classes, and functions.
 
 ## License
 MIT License
