@@ -51,6 +51,17 @@ score = model.score(y_test, y_pred)
 ## Documentation
 A comprehensive Sphinx documentation is available for this module, providing detailed information on usage, classes, and functions.
 
+To generate the HTML documentation, run:
+```bash
+make html
+```
+
+## Running Tests
+To run the tests using Pytest, execute:
+```bash
+pytest tests/
+```
+
 ## License
 MIT License
 
